@@ -104,7 +104,14 @@ body{
 section.formulario{
     padding: 80px 4%;
 }
-
+h2.titulo-formulario{
+    color: white;
+    font-size: 38px;
+    text-align: center;
+}
+h2.titulo-formulario span{
+    color: #01DC71;
+}
 form{
     max-width: 500px;
     margin: 0 auto;
