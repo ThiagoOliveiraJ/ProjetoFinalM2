@@ -159,3 +159,17 @@ form .enviar input{
     cursor: pointer;
     transition: .2s;
 }
+.section-sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+}
+.img-sobre{
+    width: 500px;
+
+}
+.texto-sobre{
+    color: white;
+}
