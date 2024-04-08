@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -160,6 +161,15 @@ form .enviar input{
     cursor: pointer;
     transition: .2s;
 }
+form .enviar input:hover{
+    transform: scale(0.96);
+}
+
+
+form .enviar input:active{
+    transform: scale(1);
+}
+
 .section-sobre{
     display: flex;
     justify-content: center;
