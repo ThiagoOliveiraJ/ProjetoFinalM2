@@ -84,6 +84,7 @@ body{
     cursor: pointer;
     transition: all.4s;
     margin: 20px 0;
+    text-decoration: none;
     box-shadow: 1px 1px 4px 4px rgba(0, 0, 0, 0.192);
 }
 
@@ -110,6 +111,7 @@ h2.titulo-formulario{
     color: white;
     font-size: 38px;
     text-align: center;
+    margin-top: 230px;
 }
 h2.titulo-formulario span{
     color: #01DC71;
@@ -253,6 +255,7 @@ form .enviar input:active{
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
     box-shadow: 1px 1px 2px 4px rgba(0, 0, 0, 0.209);
 }
 
