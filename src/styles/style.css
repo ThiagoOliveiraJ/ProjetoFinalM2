@@ -60,8 +60,13 @@ body{
     align-items: center;
 }
 
+.campo-imagem{
+    position: relative;
+    height: 500px;
+}
 .img-principal{
     width: 600px;
+   
 }
 .titulo-principal{
     color: white;
