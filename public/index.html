@@ -71,17 +71,47 @@
     </section>
     <section class="formulario" id="form">
         <h2 class="titulo-formulario">FALE <span>CONOSCO.</span></h2>
-            <form action="">
-                <input type="text" name="" id="" placeholder="Seu nome:" required>
-                <input type="text" name="" id="" placeholder="Seu e-mail:" required>
-                <input type="text" name="" id="" placeholder="Seu celular:" required>
-                <textarea name="" id="" placeholder="Observações:" required></textarea>
+            <form action="https://formsubmit.co/ecoclear.company@gmail.com" method="POST">
+                <input type="text" name="name"  placeholder="Seu nome:" required>
+                <input type="email" name="email"  placeholder="Seu e-mail:" required>
+                <input type="text" name="numero"  placeholder="Seu celular:" required>
+
+                <textarea cols="30" rows="10" name="mensagem"  placeholder="Observações:" required></textarea>
                 <div class="enviar"><input type="submit" value="ENVIAR"></div>
+
+                <input type="hidden" name="_subject" value="Novo Contato!">
+                <input type="text" name="_honey" style="display:none">
+                <input type="hidden" name="_captcha" value="false">
             </form>
         </div>  
     </section><!--Formulario-->
    <div class="fale-conosco" id="faleIcon">
     <i class="fa-solid fa-headset"></i>
    </div>
+
+   <!-- Rodapé da página -->
+   <footer>
+    <div class="footerContainer">
+        <div class="socialIcons">
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href="mailto:ecoclear.company@gmail.com" target="_blank" ><i class="fa fa-envelope"></i></a>
+            <a href="https://github.com/ThiagoOliveiraJ/ProjetoFinalM2"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <div class="footerNav">
+            <ul><li><a href="">Home</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">our Team</a></li>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="footerBottom">
+        <p>Copyright &copy;2024; Designed by <span class="designer">Squad 8</span></p>
+    </div>
+</footer>
 </body>
 </html>
