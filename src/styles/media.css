@@ -1,0 +1,64 @@
+@media screen and (max-width:800px) {
+    .section-sobre {
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .campo-texto-sobre {
+        width: 90%;
+    }
+
+    .section-servicos {
+        margin: 500px 0;
+    }
+
+    .section-servicos ul {
+        flex-direction: column;
+    }
+
+    .owl-carousel .owl-item {
+        display: flex;
+        justify-content: center;
+    }
+    .subtitle-depositions{
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width:630px) {
+    .cabecalho {
+        flex-direction: column;
+    }
+
+    .img-principal{
+        width: 350px;
+    }
+    .img-sobre{
+        width: 350px;
+    }
+    .campo-imagem{
+        height: 350px;
+    }
+
+    .socialIcons{
+        
+    }
+    .footerNav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    form input, form textarea{
+        width: auto;
+    }
+
+    .titulo-principal{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:420px){
+    footer{
+        margin-top: 100px;
+    }
+}
