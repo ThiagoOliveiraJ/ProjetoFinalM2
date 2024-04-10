@@ -221,8 +221,8 @@ form .enviar input:active{
 }
 
 .card{
-    width: 350px;
-    height: 400px;
+    width: 350px !important;
+    height: 400px !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -298,6 +298,71 @@ form .enviar input:active{
     top: 15px;
     font-size:50px;
 }
+
+
+.section-depositions{
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.title-depositions{
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.subtitle-depositions{
+    color: #35b464;
+    font-size: 46px;
+    margin: 15px 0;
+}
+.sub-text{
+    color: white;
+    text-align: center;
+}
+.owl-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%; 
+    margin: 100px auto;
+}
+.owl-carousel  .card{
+    gap: 30px;
+}
+.owl-carousel  .card img{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #01DC71;
+    border-radius: 50%;
+}
+.owl-carousel  .card .comment-card{
+    text-align: center;
+    max-width: 90%;
+}
+
+.owl-carousel .card .name-card{
+    font-size: 18px;
+}
+
+
+.owl-nav{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.owl-nav button span{
+    color: white;
+    font-size: 50px;
+}
+
+.owl-carousel .owl-stage-outer {
+    padding: 10px;
+}
+
 /* Estilos para o rodapé da página */
 footer{
     background-color: #111;
