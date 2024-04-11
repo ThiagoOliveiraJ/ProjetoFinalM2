@@ -12,46 +12,47 @@ body{
     font-family: "Poppins", sans-serif;
     background-color: #1A1A1A;
 }
-
-.section-principal{
+/* Estilizando a seção principal */
+.main section{
     width: 100%;
     height: 100vh;
 }
-.cabecalho{
+/* Estilizando o cabeçalho */
+.header{
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 10px 0;
 }
 
-.cabecalho .logo{
+.header .logo{
     width: 200px;
 }
 
-.cabecalho ul{
+.header ul{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
 }
 
-.cabecalho ul li{
+.header ul li{
     list-style: none;
 }
 
 
-.cabecalho ul li a:hover{
+.header ul li a:hover{
     color: #25D366;
     transition: all.4s;
 }
 
-.cabecalho ul li a{
+.header ul li a{
     text-decoration: none;
     color: white;
     font-size: 20px;
 }
-
-.conteudo-principal{
+/* Estilizando o conteúdo principal */
+.main-content{
     height: 100vh;
     width: auto;
     display: flex;
@@ -59,24 +60,25 @@ body{
     justify-content: center;
     align-items: center;
 }
-
-.campo-imagem{
+/* Estilizando o campo de imagem */
+.field-img{
     position: relative;
     height: 500px;
 }
-.img-principal{
+.img-main{
     width: 600px;
    
 }
-.titulo-principal{
+/* Estilizando o título principal */
+.main-title{
     color: white;
     text-transform: uppercase;
     font-size: 35px;
     text-align: center;
     text-shadow: 1px 1px 2px black;
 }
-
-.btn-principal{
+/* Estilizando o botão principal */
+.btn-main{
     border: none;
     outline: none;
     background-color: #01DC71;
@@ -93,13 +95,11 @@ body{
     box-shadow: 1px 1px 4px 4px rgba(0, 0, 0, 0.192);
 }
 
-
-
-.btn-principal:hover{
+.btn-main:hover{
     transform: scale(0.96);
 }
 
-.btn-principal:active{
+.btn-main:active{
     transform: scale(1);
 }
 
@@ -108,17 +108,17 @@ body{
 }
 
 /* ESTILO DE FORMULARIO DE CONTATO */
-section.formulario{
+section.form{
     height: 100vh;
     padding: 80px 4%;
 }
-h2.titulo-formulario{
+h2.title-form{
     color: white;
     font-size: 38px;
     text-align: center;
     margin-top: 230px;
 }
-h2.titulo-formulario span{
+h2.title-form span{
     color: #01DC71;
 }
 form{
@@ -156,11 +156,11 @@ form textarea{
     max-height: 200px;
 }
 
-form .enviar{
+form .send{
     margin-top: 20px;
 }
 
-form .enviar input{
+form .send input{
     width: 120px;
     background-color: #01DC71;
     color: #000000b4;
@@ -168,36 +168,36 @@ form .enviar input{
     cursor: pointer;
     transition: .2s;
 }
-form .enviar input:hover{
+form .send input:hover{
     transform: scale(0.96);
 }
 
 
-form .enviar input:active{
+form .send input:active{
     transform: scale(1);
 }
-
-.section-sobre{
+/* Estilizando a seção sobre */
+.section-about{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 100px;
     height: 100vh;
 }
-.img-sobre{
+.img-about{
     width: 500px;
 
 }
 
-.campo-texto-sobre{
+.field-text-about{
     width: 40%;
 }
-.texto-sobre{
+.text-about{
     color: white;
     font-size: 18px;
 }
-
-.section-servicos{
+/* Estilizando a seção de serviços */
+.services-section{
     display:flex; 
     justify-content: center;
     align-items: center;
@@ -205,13 +205,13 @@ form .enviar input:active{
     height: 100vh;
 }
 
-.titulo-servicos{
+.services-title{
     color: white;
     text-transform: uppercase;
     font-size: 35px;
 }
 
-.section-servicos ul{
+.services-section ul{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -219,7 +219,7 @@ form .enviar input:active{
     gap: 25px;
     margin: 70px 0 0 0;
 }
-
+/* Estilizando o cartão de serviço */
 .card{
     width: 350px !important;
     height: 400px !important;
@@ -240,7 +240,7 @@ form .enviar input:active{
     transform: translateY(-5px);
     transition: all.4s;
 }
-.titulo-card{
+.title-card{
     font-size: 25px;
     text-transform: uppercase;
 }
@@ -268,12 +268,12 @@ form .enviar input:active{
 .btn-card:active{
     transform: scale(0.96);
 }
-
-.fale-conosco{
+/* Botão de contato fixo na parte inferior direita da tela */
+.contact-us{
     position: fixed;
     bottom: 0;
     right: 10px;
-    bottom: 10px;
+    bottom: 10px;text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
     color: white;
     background-color: #01DC71;
     padding: 10px;
@@ -285,21 +285,20 @@ form .enviar input:active{
     cursor: pointer;
     transition: all.4s;
 }
-.fale-conosco:hover{
+.contact-us:hover{
     transform: scale(0.96);
 }
 
-.fale-conosco:active{
+.contact-us:active{
     transform: scale(1.1);
 }
-.fale-conosco i{
+.contact-us i{
     position: absolute;
     right: 15px;
     top: 15px;
     font-size:50px;
 }
-
-
+/* Seção de depoimentos, exibindo os depoimentos em uma coluna centralizada */
 .section-depositions{
     display:flex; 
     justify-content: center;
@@ -346,7 +345,6 @@ form .enviar input:active{
 .owl-carousel .card .name-card{
     font-size: 18px;
 }
-
 
 .owl-nav{
     display: flex;
@@ -398,6 +396,23 @@ footer{
 .socialIcons a:hover i{
     color: white;
     transition: 0.5s;
+}
+.contact-info {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.contact-info a {
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.contact-info a:hover {
+    opacity: 1;
 }
 .footerNav{
     margin: 30px 0;
