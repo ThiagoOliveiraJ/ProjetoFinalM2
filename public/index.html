@@ -6,8 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="/src/styles/style.css">
     <link rel="stylesheet" href="/src/styles/media.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
@@ -15,7 +14,7 @@
 </head>
 
 <body>
-    <header class="cabecalho">
+    <header class="header">
         <img class="logo" src="/public/assets/img/LogoEcoclear.png" alt="">
         <ul>
             <li><a href="#inicio">Inicio</a></li>
@@ -25,23 +24,23 @@
         </ul>
     </header>
 
-    <section class="section-principal" id="inicio">
+    <section class="main section" id="home">
 
-        <main class="conteudo-principal">
-            <div class="campo-imagem">
-                <img class="img-principal" src="/public/assets/img/imagem_terra.svg" alt="">
+        <main class="main-content">
+            <div class="field-img">
+                <img class="img-main" src="/public/assets/img/imagem_terra.svg" alt="">
             </div>
-            <h1 class="titulo-principal">Soluções <span class="textGreen">ecologicas</span><br> para um Mundo Mais Limpo
+            <h1 class="main-title">Soluções <span class="textGreen">ecologicas</span><br> para um Mundo Mais Limpo
             </h1>
-            <a class="btn-principal" href="#form">Saiba mais</a>
+            <a class="btn-main" href="#form">Saiba mais</a>
         </main>
     </section>
-    <section class="section-sobre" id="sobre">
-        <img class="img-sobre" src="/public/assets/img/imagem_sobre.svg" alt="">
-        <article class="campo-texto-sobre">
-            <p class="texto-sobre"> Fundada em 2024, a EcoClear surgiu do desejo de fazer a diferença no mundo,
-                oferecendo soluções ecologicamente responsáveis para a gestão de resíduos. Desde então, temos nus inpenhados para nus tornarmos
-                líderes na aria do equilibrio ambiental, tendo assim, como principal objetivo, proporcionar um ambiente mais limpo
+    <section class="section-about" id="about">
+        <img class="img-about" src="/public/assets/img/imagem_sobre.svg" alt="">
+        <article class="field-text-about">
+            <p class="text-about"> Fundada em 2024, a EcoClear surgiu do desejo de fazer a diferença no mundo,
+                oferecendo soluções ecologicamente responsáveis para a gestão de resíduos. Desde então, nos tornamos
+                líderes no mercado de remoção de lixos e resíduos, comprometidos em proporcionar um ambiente mais limpo
                 e sustentável para as gerações futuras.
                 <br>
                 <br>
@@ -52,11 +51,11 @@
         </article>
     </section>
 
-    <section class="section-servicos" id="servicos">
-        <h2 class="titulo-servicos">serviços</h2>
+    <section class="services-section" id="services">
+        <h2 class="services-title">serviços</h2>
         <ul>
             <li class="card">
-                <h3 class="titulo-card">Coleta Seletiva em Eventos</h3>
+                <h3 class="title-card">Coleta Seletiva em Eventos</h3>
                 <i class="fa-solid fa-truck-moving"></i>
                 <p class="texto-card">Fornecemos serviços de coleta seletiva em eventos, como festivais, feiras e
                     conferências, para garantir que os resíduos sejam separados adequadamente e encaminhados para
@@ -65,7 +64,7 @@
                 <a class="btn-card" href="#form">saiba mais</a>
             </li>
             <li class="card">
-                <h3 class="titulo-card">reciclagem</h3>
+                <h3 class="title-card">reciclagem</h3>
                 <i class="fa-solid fa-recycle"></i>
                 <p class="texto-card">Na EcoClear, reciclamos para um futuro mais limpo. Coletamos e encaminhamos
                     plástico, papel, metal e vidro para reciclagem certificada. Junte-se a nós para preservar o meio
@@ -74,9 +73,9 @@
                 <a class="btn-card" href="#form">saiba mais</a>
             </li>
             <li class="card">
-                <h3 class="titulo-card">Programas de Educação Ambiental</h3>
+                <h3 class="title-card">Programas de Educação Ambiental</h3>
                 <i class="fa-solid fa-book"></i>
-                <p class="texto-card">Criamos programas de educação ambiental para escolas, empresas e comunidades,
+                <p class="text-card">Criamos programas de educação ambiental para escolas, empresas e comunidades,
                     visando aumentar a conscientização sobre a importância da gestão de resíduos e da conservação
                     ambiental.</p>
 
@@ -129,15 +128,15 @@
             </li>
         </ul>
     </section>
-    <section class="formulario" id="form">
-        <h2 class="titulo-formulario">FALE <span>CONOSCO.</span></h2>
+    <section class="form" id="form">
+        <h2 class="title-form">FALE <span>CONOSCO.</span></h2>
         <form action="https://formsubmit.co/ecoclear.company@gmail.com" method="POST">
             <input type="text" name="name" placeholder="Seu nome:" required>
             <input type="email" name="email" placeholder="Seu e-mail:" required>
             <input type="text" name="numero" placeholder="Seu celular:" required>
 
             <textarea cols="30" rows="10" name="mensagem" placeholder="Observações:" required></textarea>
-            <div class="enviar"><input type="submit" value="ENVIAR"></div>
+            <div class="send"><input type="submit" value="ENVIAR"></div>
 
             <input type="hidden" name="_subject" value="Novo Contato!">
             <input type="text" name="_honey" style="display:none">
@@ -145,7 +144,7 @@
         </form>
         </div>
     </section><!--Formulario-->
-    <div class="fale-conosco" id="faleIcon">
+    <div class="contact-us" id="faleIcon">
         <i class="fa-solid fa-headset"></i>
     </div>
 
@@ -158,6 +157,10 @@
                 <a href=""><i class="fa-brands fa-twitter"></i></a>
                 <a href="mailto:ecoclear.company@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
                 <a href="https://github.com/ThiagoOliveiraJ/ProjetoFinalM2"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <div class="contact-info">
+                <p><a href="mailto:ecoclear.company@gmail.com">ecoclear.company@gmail.com</a></p>
+                <p><a href="tel:(85)40028922">(85)40028922</a></p>
             </div>
             <div class="footerNav">
                 <ul>
