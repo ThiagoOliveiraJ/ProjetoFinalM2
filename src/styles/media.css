@@ -1,18 +1,18 @@
 @media screen and (max-width:800px) {
-    .section-sobre {
+    .section-about {
         flex-direction: column;
         margin-top: 100px;
     }
 
-    .campo-texto-sobre {
+    .field-text-about {
         width: 90%;
     }
 
-    .section-servicos {
+    .section-services {
         margin: 500px 0;
     }
 
-    .section-servicos ul {
+    .section-services ul {
         flex-direction: column;
     }
 
@@ -27,17 +27,17 @@
 
 
 @media screen and (max-width:630px) {
-    .cabecalho {
+    .header {
         flex-direction: column;
     }
 
-    .img-principal{
+    .img-main{
         width: 350px;
     }
-    .img-sobre{
+    .img-about{
         width: 350px;
     }
-    .campo-imagem{
+    .field-img{
         height: 350px;
     }
 
@@ -52,7 +52,7 @@
         width: auto;
     }
 
-    .titulo-principal{
+    .title-main{
         font-size: 30px;
     }
 }
